@@ -1,0 +1,66 @@
+body {
+    font-family: 'EB Garamond', Garamond, 'Times New Roman', Times, serif;
+    background-color:  white;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+h1 {
+    color: black;
+    font-style: oblique;
+}
+
+
+
+h2 {
+    font-size: larger;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+h4 {
+    font-size: larger;
+    font-style: oblique;
+}
+
+h5 {
+    font-size: large;
+    font-style: oblique;
+}
+img {
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.left {
+    flex: 1;
+    max-width: 400px;
+    padding-right: 60px;
+}
+
+.right {
+    flex: 2;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.photo-grid img {
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
